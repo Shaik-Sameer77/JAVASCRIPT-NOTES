@@ -664,8 +664,8 @@ arr.slice(-2);      // [4, 5] (negative index from end)
 
 // splice - modifies original array
 const arr2 = [1, 2, 3, 4, 5];
-arr2.splice(2, 1);          // removes 1 element at index 2
-arr2.splice(1, 0, 'a', 'b'); // inserts at index 1
+arr2.splice(2, 1);          // removes 1 element at index 2 ; output: [1,2,4,5]
+arr2.splice(1, 0, 'a', 'b'); // inserts at index 1 ; output: [1,"a","b",2,4,5]
 ```
 
 ### **Array Destructuring**
